@@ -5,7 +5,7 @@ import { promises } from 'dns';
 
 
 
-//get user
+//get userss
 export const getUser = async (req:any, res:any):Promise<void> => {
     try{
         const result = await pool.query(`SELECT * From user`);
